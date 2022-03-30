@@ -102,7 +102,7 @@ var ops2= function(){
 }
 var btnCus= function(){
     textCus.style.display='none'
-    inpCus.style.backgroundColor='orange'
+    inpCus.style.backgroundColor='lightBlue'
     for(i=0, l=tip.length; i<l; i++){ 
         tip[i].style.backgroundColor='white'
    }
