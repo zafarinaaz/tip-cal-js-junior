@@ -51,6 +51,7 @@
         height: 3rem;
         padding: 2%;
         border-radius: 10px;
+        align-items: center;
     }
     .wrap-tip{
         margin: 5% 0;
@@ -62,6 +63,7 @@
         height: 6rem;
         row-gap: 10px;
         column-gap: 10px;
+        
     }
     .box-pep{
         border: 2px solid rgb(100, 38, 64);
@@ -70,6 +72,9 @@
         justify-content: space-between;
         padding: 2%;
         border-radius: 10px;
+        align-items: center;
+    }.box-bill img, .box-pep img{
+      height: 1.5rem;
     }
     .wrap-pep2{
         display: flex;
@@ -174,7 +179,7 @@
     }
     @media (max-width: 576px) {
         .container{
-            width: 60%;
+            width: 80%;
             row-gap: 2.5rem;
             grid-template-areas: 'a a' 'b b';
             grid-template-rows: 1fr 1fr;
@@ -185,6 +190,9 @@
         }
         .g2{
             grid-area: b;
+        }
+        .pep, .alert{
+          font-size: 8px;
         }
     }
     @media (min-width: 576px) and (max-width:768px) {
