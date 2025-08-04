@@ -1,7 +1,4 @@
-// Tidak bisa merecall memori eksplisitnya dengan baik dan cepat. Bngst!!!
-// paradigmaku membunuhku taek su!!!
-// flight ehe:/
-// Lha sido pengen ning does ora he ?
+
 
 var elA= function(element){
     if(element.charAt(0)==='#'){
@@ -130,3 +127,4 @@ btnReset.onclick= function(){
         }
     }
 }
+
